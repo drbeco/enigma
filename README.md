@@ -155,6 +155,14 @@ Configurações que passam os rotores a partir da inicial: oda -> pda -> qda -> 
 
     Lê o arquivo de entrada todecript_msg1.txt que está criptografado e imprime na saída padrão o texto plano.
 
+## Referências
+
+* Cipher Machines and Cryptology: http://users.telenet.be/d.rijmenants/en/enigmamenu.htm
+* Crypto Museum: http://www.cryptomuseum.com/crypto/enigma/m3/index.htm
+* University of California: https://youtu.be/ncL2Fl6prH8
+* Numberphile, Video 1: https://youtu.be/G2_Q9FoD-oQ
+* Numberphile, Video 2: https://youtu.be/V4V2bpZlqx8
+
 ## Fale com o autor
 
 Autor: Prof. Ruben Carlo Benante
