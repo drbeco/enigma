@@ -85,19 +85,8 @@ $./ex5.x -r 1,2,3 -i zaa
 
 Ou seja, posição inicial dos rotores é `1=I=z, 2=II=a, 3=III=a` e sem uso de cabos plugados no painel frontal.
 
-* Entrada: AAAA...AA (27 letras A seguidas)
-* Saída: NFTZMGISXIPJWGDNJJCOQTYRIGD
-
-2. Teste com plugs trocando `(A,B) e (C,D)`, configuração inicial `jkl` e rotores `1,3,2`
-
-```
-$./ex5.x -r 1,2,3 -i zaa
-```
-
-Ou seja, posição inicial dos rotores é `1=I=z, 2=II=a, 3=III=a` e sem uso de cabos plugados no painel frontal.
-
-* Entrada: AAAA...AA (27 letras A seguidas)
-* Saída: NFTZMGISXIPJWGDNJJCOQTYRIGD
+* `Entrada: AAAAAAAAAAAAAAAAAAAAAAAAAAA` (27 letras A seguidas)
+* `Saída:   NFTZMGISXIPJWGDNJJCOQTYRIGD`
 
 2. Teste com plugs trocando `(A,J), (K,W) e (M,R)`, rotores `1=I=a, 2=III=b, 3=II=c`:
 
@@ -105,8 +94,8 @@ Ou seja, posição inicial dos rotores é `1=I=z, 2=II=a, 3=III=a` e sem uso de 
 $./ex5.x -r 1,3,2 -i abc -p aj,kw,mr
 ```
 
-* Entrada: AAAAAAAAAAAAAAAAAAAAAAAAAAA (27 letras A seguidas)
-* Saída:   YGTIIYGZWULIRUKZZSNUKXENFHP
+* `Entrada: AAAAAAAAAAAAAAAAAAAAAAAAAAA` (27 letras A seguidas)
+* `Saída:   YGTIIYGZWULIRUKZZSNUKXENFHP`
 
 3. Teste de "passo duplo" (double-step).
 
@@ -120,8 +109,8 @@ $./ex5.x -r 1,2,3 -i oda
 
 O rotor 1 gira o rotor 2 ao passar pela letra Q, colocando o rotor 2 na letra E que é seu ponto de giro. Na próxima tecla, o rotor 2 gira novamente para a letra F fazendo também o rotor 3 girar para a letra B. Daí por diante estabiliza, girando só o rotor 1 (até que o ciclo recomece).    
 
-* Entrada: AAAAAA (6 letras A seguidas)
-* Saída:   HDZGOV
+* `Entrada: AAAAAA` (6 letras A seguidas)
+* `Saída:   HDZGOV`
 
 Configurações que passam os rotores a partir da inicial: oda -> pda -> qda -> rea -> sfb -> tfb -> ufb ...
 
